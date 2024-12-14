@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8; /* Background color for the page */
+    color: #333; /* Default text color */
+}
+
+/* Header Section */
+header {
+    background-color: #004466; /* Dark blue background */
+    color: #ffffff; /* White text */
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 2.5rem;
+}
+
+h2 {
+    border-bottom: 2px solid #004466; /* Header underline color */
+    padding-bottom: 0.5rem;
+    color: #004466; /* Section heading color */
+}
+
+/* Photo Library */
+.photo-library {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.photo-library img {
+    width: 30%;
+    border: 2px solid #ccc; /* Light gray border */
+    border-radius: 8px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.photo-library img:hover {
+    transform: scale(1.05);
+    border-color: #004466; /* Border color on hover */
+}
+
+/* Program Section */
+.program-section {
+    background-color: #e6f2f5; /* Light blue background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    color: #333; /* Text color inside the box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.program-section ul {
+    padding-left: 1.5rem;
+}
+
+.program-section li {
+    margin-bottom: 0.5rem;
+}
+
+/* Button Style */
+a.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1rem;
+    color: #ffffff; /* White text */
+    background-color: #004466; /* Button color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #006080; /* Slightly lighter blue on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #004466;
+    color: #ffffff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
